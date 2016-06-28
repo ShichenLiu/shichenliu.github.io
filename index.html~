@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lustralisk</title>
+        <link rel="stylesheet" href="css/stylesheet.css" />
+    </head>
+    <body>
+        <div class="col-3">
+            <a href="#"><img src="media/profile.png" class="img-circle" /></a>
+            <h1>Shichen Liu</h1>
+            <p>Student of</p>
+            <p>School of Software, Tsinghua University</p>
+        </div>
+    </body>
+</html>
+
