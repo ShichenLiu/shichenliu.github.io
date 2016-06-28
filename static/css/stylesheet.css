@@ -35,7 +35,7 @@ a {
     text-align: center;
 }
 
-@media (min-width: 600px) {
+@media (min-device-width: 600px) {
 	.col-3, .col-6, .col-9 {
 	    float: left;
 	    position: relative;
@@ -67,7 +67,7 @@ a {
     }
 }
 
-@media (max-width: 599px) {
+@media (max-device-width: 599px) {
     .col-3, .col-6, .col-9 {
         position: relative;
         padding-right: 15px;
