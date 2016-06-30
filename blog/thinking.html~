@@ -30,13 +30,11 @@
                 <h1><i class="fa fa-bars" aria-hidden="true"></i> Blogs</h1>
                 <h3><i class="fa fa-rss" aria-hidden="true"></i> Technical Blogs</h3>
                 <ul>
+                    <li><a href="blog/thinking.html" target_="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>My comprehension about Web front-end programming</a></li>
                     <li><a href="http://www.cnblogs.com/lustralisk/p/pythonProgressBar.html" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> How to implement a progression bar in python</a></li>
                     <li><a href="http://www.cnblogs.com/lustralisk/p/auctex.html" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> Guide on installation of auctex in emacs</a></li>
                 </ul>
                 <h3><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Diary</h3>
-                <ul>
-                    <li><a href="blog/thinking.html" target_="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> My comprehension about Web front-end programming</a></li>
-                </ul>
             </div>
             <div class="award">
                 <h1><i class="fa fa-trophy" aria-hidden="true"></i> Awards</h1>
