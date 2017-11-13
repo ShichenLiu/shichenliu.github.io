@@ -1,6 +1,7 @@
 
 body {
     font-family: Tahoma, Arial, sans-serif;
+    background-color: rgb(250, 250, 250);
 }
 
 h1 {
@@ -16,6 +17,66 @@ a {
     text-decoration: none;
     color: rgb(66, 139, 202);
     font-weight: bold;
+}
+
+div.paper {
+    width: 800px;
+    height: 60px;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 1px 0.2px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow: 0px 1px 1px 0.2px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 1px 0.2px rgba(0, 0, 0, 0.1);
+}
+
+a.paper-code {
+    color: #0E0;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+a.paper-title {
+    color: #000;
+    font-size: 18px;
+}
+
+a.paper-title:hover, a.paper-code:hover {
+    text-decoration: underline;
+}
+
+span.paper-author {
+    color: #111;
+    font-style: italic;
+    font-size: 14px;
+}
+
+span.paper-conf {
+    font-size: 14px;
+}
+
+div.paper-img {
+    max-height: 180px;
+    width: 80%;
+    margin-top: 15px;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in-out; 
+    -moz-transition: max-height .3s ease-in-out; 
+    -ms-transition: max-height .3s ease-in-out; 
+    -o-transition: max-height .3s ease-in-out; 
+    transition: max-height .3s ease-in-out;
+}
+
+div.paper-img img {
+    max-height: 180px;
+}
+
+div.paper-img.collapsed {
+    max-height: 180px;
+}
+
+div.paper-img.collapsed img {
+    max-height: 0px;
 }
 
 .icon a{
