@@ -19,6 +19,14 @@ a {
     font-weight: bold;
 }
 
+.bio {
+    width: 85%;
+}
+
+.bio a {
+    font-weight: normal;
+}
+
 div.paper {
     width: 800px;
     height: 60px;
@@ -56,32 +64,63 @@ span.paper-conf {
 }
 
 div.paper-img {
-    max-height: 180px;
-    width: 80%;
+    max-height: 1000px;
+    width: 85%;
     margin-top: 15px;
     overflow: hidden;
-    -webkit-transition: max-height .3s ease-in-out; 
-    -moz-transition: max-height .3s ease-in-out; 
-    -ms-transition: max-height .3s ease-in-out; 
-    -o-transition: max-height .3s ease-in-out; 
-    transition: max-height .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out; 
+    -moz-transition: all .3s ease-in-out; 
+    -ms-transition: all .3s ease-in-out; 
+    -o-transition: all .3s ease-in-out; 
+    transition: all .3s ease-in-out;
 }
 
 div.paper-img img {
+    float: left;
     max-height: 180px;
+    max-width: 220px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+div.paper-img div {
+    height: 140px;
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+span.paper-abstract {
+    font-weight: bold;
 }
 
 div.paper-img.collapsed {
-    max-height: 180px;
-}
-
-div.paper-img.collapsed img {
     max-height: 0px;
+    margin-top: 0px;
 }
 
 .icon a{
     color: #FFF;
     font-size: 24px;
+}
+
+.top {
+    height: 40px;
+    width: 200px;
+    position: fixed;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.top i {
+    color: rgb(66, 139, 202);
+    font-size: 20px;
 }
 
 .nav {
