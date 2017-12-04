@@ -28,9 +28,9 @@ a {
 }
 
 div.paper {
-    width: 800px;
-    height: 60px;
-    padding: 15px;
+    width: 80%;
+    height: 10%;
+    padding: 1.5%;
     background-color: rgb(245, 245, 245);
     cursor: pointer;
     -webkit-box-shadow: 0px 1px 1px 0.2px rgba(0, 0, 0, 0.1);
@@ -66,7 +66,7 @@ span.paper-conf {
 div.paper-img {
     max-height: 1000px;
     width: 85%;
-    margin-top: 15px;
+    margin-top: 1.5%;
     overflow: hidden;
     -webkit-transition: all .3s ease-in-out; 
     -moz-transition: all .3s ease-in-out; 
@@ -77,15 +77,15 @@ div.paper-img {
 
 div.paper-img img {
     float: left;
-    max-height: 180px;
-    max-width: 220px;
-    margin-left: 10px;
+    max-height: 18%;
+    width: 20%;
+    margin-left: 2%;
     vertical-align: middle;
 }
 
 div.paper-img div {
-    height: 140px;
-    padding-left: 10px;
+    height: 14%;
+    padding-left: 0%;
     display: table-cell;
     vertical-align: middle;
     font-size: 12px;
@@ -106,8 +106,8 @@ div.paper-img.collapsed {
 }
 
 .top {
-    height: 40px;
-    width: 200px;
+    height: 4%;
+    width: 20%;
     position: fixed;
     padding-top: 5px;
     margin-right: 10px;
