@@ -15,7 +15,8 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(66, 139, 202);
+    /*color: rgb(66, 139, 202);*/
+    color: #2890E0;
     font-weight: bold;
 }
 
@@ -39,9 +40,15 @@ div.paper {
 }
 
 a.paper-code {
-    color: #0E0;
-    font-weight: normal;
-    font-size: 18px;
+    color: #00F218;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.paper-talk {
+    color: #FFB92D;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 a.paper-title {
@@ -49,7 +56,7 @@ a.paper-title {
     font-size: 18px;
 }
 
-a.paper-title:hover, a.paper-code:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -119,7 +126,8 @@ div.paper-img.collapsed {
 }
 
 .top i {
-    color: rgb(66, 139, 202);
+    /*color: rgb(66, 139, 202);*/
+    color: #2890E0;
     font-size: 20px;
 }
 
