@@ -24,6 +24,14 @@
             <div class="paper-list">
                 <h1><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Papers</h1>
                 <ul>
+                    <li><div class="paper" target="deep-network-calibration">
+                        <a class="paper-title" href="https://papers.nips.cc/paper/7471-generalized-zero-shot-learning-with-deep-calibration-network.pdf" target="_blank">Generalized Zero-Shot Learning with Deep Calibration Network</a> <br />
+                        <span class="paper-author"><u>Shichen Liu</u>, Mingsheng Long, Jianmin Wang, Michael I. Jordan</span> <br />
+                        <span class="paper-conf">Neural Information Processing Systems (<span style="font-weight:bold">NeurIPS</span>) 2018</span> <br />
+                        </div>
+                        <div class="paper-img" id="deep-network-calibration"><img src="media/NCprob.png" /> <div><span class="paper-abstract">Abstract</span>: A technical challenge of deep learning is recognizing target classes without seen data. Zero-shot learning leverages semantic representations such as attributes or class prototypes to bridge source and target classes. Existing standard zero-shot learning methods may be prone to overfitting the seen data of source classes as they are blind to the semantic representations of target classes. In this paper, we study generalized zero-shot learning that assumes accessible to target classes for unseen data during training, and prediction on unseen data is made by searching on both source and target classes. We propose a novel Deep Calibration Network (DCN) approach towards this generalized zero-shot learning paradigm, which enables simultaneous calibration of deep networks on the confidence of source classes and uncertainty of target classes. Our approach maps visual features of images and semantic representations of class prototypes to a common embedding space such that the compatibility of seen data to both source and target classes are maximized. We show superior accuracy of our approach over the state of the art on benchmark datasets for generalized zero-shot learning, including AwA, CUB, SUN, and aPY.</div></div>
+                    </li>
+
                     <li><div class="paper" target="condensenet">
                         <a class="paper-code" href="https://github.com/ShichenLiu/CondenseNet" target="_blank">[code]</a>
                         <a class="paper-talk" href="https://www.youtube.com/watch?v=NHajBzgnC1Q&t=87m50st" target="_blank">[talk]</a>
@@ -33,14 +41,6 @@
                         </div>
                         <div class="paper-img" id="condensenet"><img src="media/learned_conv.png" /> <div style="margin-top:100px"><span class="paper-abstract">Abstract</span>: The high accuracy of convolutional networks (CNNs) in visual recognition tasks, such as image classification, has fueled the desire to deploy these networks on platforms with limited computational resources, e.g., in robotics, self-driving cars, and on mobile devices. Unfortunately, the most accurate deep CNNs, such as the winners of the ImageNet and COCO challenges, were designed without taking strict compute restrictions into consideration. As a result, these models cannot be used to perform real-time inference on low-compute devices.</div></div>
                     </li>
-
-                    <!-- <li><div class="paper" target="NC">
-                        <a class="paper-title" href="#" target="_blank">Zero-Shot Learning with Network Calibration</a> <br />
-                        <span class="paper-author">Shichen Liu, Mingsheng Long, Jianming Wang</span> <br />
-                        <span class="paper-conf">Prepaint 2018</span> <br />
-                        </div>
-                        <div class="paper-img" id="NC"><img src="media/NCprob.png" /> <div><span class="paper-abstract">Abstract</span>: Significant progress in object recognition has been made by deep learning from large-scale labeled data. However, the capability of deep learning to recognize unseen object classes without labeled data remains a technical challenge. Zero-shot learning is one way of addressing this challenge, which leverages semantic representations such as attributes and class prototypes to bridge seen and unseen classes. We discover a miscalibration problem underlying most existing zero-shot learning methods, which results in overfitting to the probabilistic likelihood and poor transferability on generalized zero-shot learning, where prediction is performed by searching on both seen and unseen classes. We propose a Network Calibration (NC) framework to enable temperature calibration and entropy calibration of deep networks, which jointly maps visual features of images and semantic representations of class prototypes to a common embedding space such that the compatibility of training data with both seen and unseen classes are maximized. Our new loss functions enable end-to-end training of deep networks by back-propagation. We demonstrate superior accuracy of our NC framework over the state of the art on benchmark datasets for zero-shot learning, including AwA, CUB, SUN, and aPY.</div></div>
-                    </li> -->
 
                     <li><div class="paper" target="DVSQ">
                         <a class="paper-code" href="https://github.com/caoyue10/cvpr17-dvsq" target="_blank">[code]</a>
