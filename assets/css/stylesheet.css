@@ -29,14 +29,21 @@ a {
 }
 
 div.paper {
-    width: 80%;
+    width: 90%;
+    margin-left: -5%;
     height: 10%;
-    padding: 1.5%;
+    padding: 1.0%;
     background-color: rgb(245, 245, 245);
     cursor: pointer;
     -webkit-box-shadow: 0px 1px 1px 0.2px rgba(0, 0, 0, 0.1);
        -moz-box-shadow: 0px 1px 1px 0.2px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 1px 0.2px rgba(0, 0, 0, 0.1);
+}
+
+a.paper-link {
+    color: #DD22DD;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 a.paper-code {
@@ -72,7 +79,8 @@ span.paper-conf {
 
 div.paper-img {
     max-height: 1000px;
-    width: 85%;
+    width: 90%;
+    margin-left: -5%;
     margin-top: 1.5%;
     overflow: hidden;
     -webkit-transition: all .3s ease-in-out; 

@@ -1,0 +1,27 @@
+<li><div class="paper" target="{{ publication.id }}">
+      <!-- link -->
+      {% if publication.link %}
+      <a class="paper-link" href="{{ publication.link }}" target="_blank">[pdf]</a>
+      {% endif %}
+      <!-- code -->
+      {% if publication.code %}
+      <a class="paper-code" href="{{ publication.code }}" target="_blank">[code]</a>
+      {% endif %}
+      <!-- talk -->
+      {% if publication.talk %}
+      <a class="paper-talk" href="{{ publication.talk }}" target="_blank">[talk]</a>
+      {% endif %}
+      <a class="paper-title" href="{{ publication.link }}" target="_blank">{{ publication.paper-title }}</a> <br />
+      <!-- authors -->
+      <span class="paper-author">{{ publication.authors }}</span> <br />
+      <!-- conference -->
+      <span class="paper-conf"> {{ publication.conference }} (<span style="font-weight:bold"> {{ publication.conference-brief }} </span>) {{ publication.year }}
+      {% if publication.award == "oral" %}
+      , <span style="font-weight:bold;color:red">Oral</span></span>
+      {% elsif publication.award == "spotlight" %}
+      , <span style="font-weight:bold">Spotlight</span></span>
+      {% endif %}
+       <br />
+      </div>
+      <div class="paper-img" id="{{ publication.id }}"><img src="{{ publication.img }}" /> <div><span class="paper-abstract">Abstract</span>: {{ publication.excerpt }}</div></div>
+</li>

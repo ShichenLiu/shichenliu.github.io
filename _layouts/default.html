@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shichen Liu's Homepage</title>
+        <link rel="stylesheet" href="/assets/css/stylesheet.css" />
+        <link rel="stylesheet" href="/assets/font-awesome-4.6.3/css/font-awesome.min.css" />
+    </head>
+    <body>
+
+        {% include navigation.html %}
+
+        <div class="col-9 col-offset-3">
+            
+            <!-- biography -->
+            {% include biography.html %}
+
+            <!-- publications -->
+            <div class="paper-list">
+                <h1><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Publications</h1>
+                <ul>
+                    {% for publication in site.publications reversed %}
+                        {% include publication_single.html %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- awards -->
+            <div class="award">
+                <h1><i class="fa fa-trophy" aria-hidden="true"></i> Awards</h1>
+                {% include awards.html %}
+            </div>
+
+            <!-- projects -->
+            <div class="work">
+                <h1><i class="fa fa-folder-open-o" aria-hidden="true"></i> Projects</h1>
+                {% include projects.html %}
+            </div>
+
+            <!-- recently -->
+            <div class="plan">
+                <h1><i class="fa fa-calendar-o" aria-hidden="true"></i> Recently</h1>
+            </div>
+        </div>
+        <a id="button" onclick="scroll_to_top()" style="text-decoration:none;color:#000;display:none;">
+            <div class="top">
+                <p>Back to top <i class="fa fa-arrow-circle-up" aria-hidden="true"></i></p>
+            </div>
+        </a>
+        <script src="/assets/js/tool.js"></script>
+    </body>
+</html>
