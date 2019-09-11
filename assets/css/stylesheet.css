@@ -152,6 +152,11 @@ div.paper-img.collapsed {
     text-align: center;
 }
 
+.visitors {
+    margin-left: 5%;
+    width: 20%;
+}
+
 @media (min-device-width: 600px) {
 	.col-3, .col-6, .col-9 {
 	    float: left;
