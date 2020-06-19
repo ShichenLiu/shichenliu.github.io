@@ -15,11 +15,15 @@
       <!-- authors -->
       <span class="paper-author">{{ publication.authors }}</span> <br />
       <!-- conference -->
-      <span class="paper-conf"> {{ publication.conference }} (<span style="font-weight:bold"> {{ publication.conference-brief }} </span>) {{ publication.year }}
-      {% if publication.award == "oral" %}
-      , <span style="font-weight:bold;color:red">Oral</span></span>
-      {% elsif publication.award == "spotlight" %}
-      , <span style="font-weight:bold">Spotlight</span></span>
+      {% if publication.conference == "ArXiv" %}
+            <span class="paper-conf"> <span style="font-weight:bold"> {{ publication.conference }} </span> Prepaint {{ publication.year }}
+      {% else %}
+            <span class="paper-conf"> {{ publication.conference }} (<span style="font-weight:bold"> {{ publication.conference-brief }} </span>) {{ publication.year }}
+            {% if publication.award == "oral" %}
+            , <span style="font-weight:bold;color:red">Oral Presentation</span></span>
+            {% elsif publication.award == "spotlight" %}
+            , <span style="font-weight:bold">Spotlight Presentation</span></span>
+            {% endif %}
       {% endif %}
        <br />
       </div>
