@@ -58,3 +58,5 @@ plugins:
 collections:
   publications:
     output: true
+  journals:
+    output: true

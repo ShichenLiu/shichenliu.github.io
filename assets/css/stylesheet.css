@@ -80,7 +80,8 @@ span.paper-conf {
 div.paper-img {
     max-height: 1000px;
     width: 90%;
-    margin-left: -5%;
+    /*margin-left: -5%;*/
+    margin-left: -50px;
     margin-top: 1.5%;
     overflow: hidden;
     -webkit-transition: all .3s ease-in-out; 
@@ -104,6 +105,7 @@ div.paper-img div {
     display: table-cell;
     vertical-align: middle;
     font-size: 12px;
+    margin-left: 2%;
 }
 
 span.paper-abstract {

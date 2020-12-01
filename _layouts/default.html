@@ -17,6 +17,13 @@
             <!-- publications -->
             <div class="paper-list">
                 <h1><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Publications</h1>
+                <h3><i class="fa fa-trophy" aria-hidden="true"></i> Journals</h3>
+                <ul>
+                    {% for publication in site.journals reversed %}
+                        {% include publication_single.html %}
+                    {% endfor %}
+                </ul>
+                <h3><i class="fa fa-trophy" aria-hidden="true"></i> Conferences</h3>
                 <ul>
                     {% for publication in site.publications reversed %}
                         {% include publication_single.html %}
