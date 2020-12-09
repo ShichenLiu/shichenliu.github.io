@@ -215,3 +215,23 @@ div.paper-img.collapsed {
 .img-circle {
     border-radius: 50%;
 }
+
+.color-level-heirloom {
+    background-color: rgb(74, 26, 22);
+    color: rgb(235, 92, 76);
+}
+
+.color-level-master {
+    background-color: rgb(46, 29, 85);
+    color: rgb(197, 132, 246);
+}
+
+.color-level-diamond {
+    background-color: rgb(16, 41, 72);
+    color: rgb(77, 173, 248);
+}
+
+.color-level-platinum {
+    background-color: rgb(32, 62, 76);
+    color: rgb(146, 248, 250);
+}
