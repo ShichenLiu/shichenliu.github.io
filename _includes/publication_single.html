@@ -3,6 +3,10 @@
       {% if publication.link %}
       <a class="paper-link" href="{{ publication.link }}" target="_blank">[pdf]</a>
       {% endif %}
+      <!-- page -->
+      {% if publication.page %}
+      <a class="paper-page" href="{{ publication.page }}" target="_blank">[project]</a>
+      {% endif %}
       <!-- code -->
       {% if publication.code %}
       <a class="paper-code" href="{{ publication.code }}" target="_blank">[code]</a>

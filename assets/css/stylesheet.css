@@ -47,6 +47,12 @@ a.paper-link {
     font-size: 16px;
 }
 
+a.paper-page {
+    color: #009900;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 a.paper-code {
     color: #00F218;
     font-weight: bold;
