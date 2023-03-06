@@ -64,13 +64,13 @@ backToTop.init = function(setting) {
 
 backToTop.init({RightDown: true});
 
-var paper_img = document.getElementsByClassName('paper-img');
-Array.from(paper_img).forEach(function(x){x.classList.add('collapsed');})
+// var paper_img = document.getElementsByClassName('paper-img');
+// Array.from(paper_img).forEach(function(x){x.classList.add('collapsed');})
 
-var paper_toggle = document.getElementsByClassName('paper');
-Array.from(paper_toggle).forEach(function(x){
-    x.addEventListener('click', function() {
-    	var id = x.getAttribute("target");
-        document.getElementById(id).classList.toggle('collapsed');
-    });
-})
+// var paper_toggle = document.getElementsByClassName('paper');
+// Array.from(paper_toggle).forEach(function(x){
+//     x.addEventListener('click', function() {
+//     	var id = x.getAttribute("target");
+//         document.getElementById(id).classList.toggle('collapsed');
+//     });
+// })
