@@ -89,7 +89,7 @@ body {
     width: 100%;
     height: 0;
     padding-bottom: 37.037037037%; /* Exact 1/2.7 * 100% for precise 2.7:1 XPan ratio */
-    background-image: url('/images/banner.jpg');
+    background-image: url('https://pub-a495ed422022427aa6830854f677ccec.r2.dev/banner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
