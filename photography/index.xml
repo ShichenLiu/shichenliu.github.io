@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photography on Shichen Liu</title>
+    <link>https://shichenliu.github.io/photography/</link>
+    <description>Recent content in Photography on Shichen Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shichenliu.github.io/photography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Photography Gallery</title>
+      <link>https://shichenliu.github.io/photography/gallery/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/photography/gallery/</guid>
+      <description>&lt;h1 id=&#34;photography-gallery&#34;&gt;Photography Gallery&lt;/h1&gt;&#xA;&lt;p&gt;A collection of moments, places, and experiences that have shaped my perspective on the world. From natural landscapes to urban life, these images capture the beauty and complexity of our surroundings.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

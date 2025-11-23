@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shichen Liu</title>
+    <link>https://shichenliu.github.io/</link>
+    <description>Recent content on Shichen Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shichenliu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MonoAvatar&#43;&#43;: Efficient 3D Implicit Head Avatar with Mesh-anchored Hash Table Blendshapes</title>
+      <link>https://shichenliu.github.io/publications/monoavatar-plus-plus/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/monoavatar-plus-plus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>https://shichenliu.github.io/blog/sample-post/</link>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/blog/sample-post/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog&lt;/h1&gt;&#xA;&lt;p&gt;This is a sample blog post to demonstrate the functionality of your new Hugo website. You can use this as a template for future posts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;&#xA;&lt;p&gt;To create a new blog post, use the Hugo command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new content blog/your-post-title.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;writing-content&#34;&gt;Writing Content&lt;/h2&gt;&#xA;&lt;p&gt;You can write your content in Markdown, which supports:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Code snippets&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://example.com&#34;&gt;Links&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;And much more!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of a code block:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://shichenliu.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/about/</guid>
+      <description>&lt;p&gt;Stealth mode. I was a senior research scientist at Google.&#xA;I obtained my Ph.D. from the University of Southern California, &lt;a href=&#34;https://vgl.ict.usc.edu&#34;&gt;VGL-ICT&lt;/a&gt;.&#xA;Previously, I was in the &lt;a href=&#34;https://github.com/thuml&#34;&gt;Machine Learning Group&lt;/a&gt;, Tsinghua University, advised by &lt;a href=&#34;http://ise.thss.tsinghua.edu.cn/~mlong/&#34;&gt;Prof. Mingsheng Long&lt;/a&gt; and &lt;a href=&#34;http://yue-cao.me/&#34;&gt;Dr. Yue Cao&lt;/a&gt;.&#xA;I visited the &lt;a href=&#34;http://www.cs.cornell.edu/~kilian/index.html&#34;&gt;Prof. Kilian Q. Weinberger&lt;/a&gt;&amp;rsquo;s lab at Cornell University, working with &lt;a href=&#34;https://gaohuang-net.github.io/&#34;&gt;Prof. Gao Huang&lt;/a&gt;.&#xA;My research explores principled methods for understanding the 3D world and creating advanced digital human technologies.&#xA;I&amp;rsquo;m also a photographer, digital artist, and gamer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gaming</title>
+      <link>https://shichenliu.github.io/life/gaming-achievements/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/life/gaming-achievements/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Diamond rank&lt;/strong&gt; in Apex Legends &lt;strong&gt;(2%)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platinum Cup&lt;/strong&gt; of Monster Hunter World: Iceborne&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platinum Cup&lt;/strong&gt; of 13 Sentinels: Aegis Rim&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platinum rank&lt;/strong&gt; in Overwatch&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Master rank&lt;/strong&gt; as &lt;em&gt;Zerg&lt;/em&gt;, &lt;strong&gt;Diamond rank&lt;/strong&gt; as &lt;em&gt;Protoss&lt;/em&gt; in StarCraft II&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platinum Cup&lt;/strong&gt; of Monster Hunter: World&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platinum Cup&lt;/strong&gt; of God of War&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Photography Gallery</title>
+      <link>https://shichenliu.github.io/photography/gallery/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/photography/gallery/</guid>
+      <description>&lt;h1 id=&#34;photography-gallery&#34;&gt;Photography Gallery&lt;/h1&gt;&#xA;&lt;p&gt;A collection of moments, places, and experiences that have shaped my perspective on the world. From natural landscapes to urban life, these images capture the beauty and complexity of our surroundings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generalizing Neural Human Fitting to Unseen Poses With Articulated SE(3) Equivariance</title>
+      <link>https://shichenliu.github.io/publications/arteq/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/arteq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rapid Face Asset Acquisition with Recurrent Feature Alignment</title>
+      <link>https://shichenliu.github.io/publications/refa/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/refa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exemplar-based Pattern Synthesis with Implicit Periodic Field Network</title>
+      <link>https://shichenliu.github.io/publications/ipfn/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/ipfn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Topologically Consistent Multi-View Face Inference Using Volumetric Sampling</title>
+      <link>https://shichenliu.github.io/publications/tofu/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/tofu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VaPiD: A Rapid Vanishing Point Detector via Learned Optimizers</title>
+      <link>https://shichenliu.github.io/publications/vapid/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/vapid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NeRD: Neural 3D Reflection Symmetry Detector</title>
+      <link>https://shichenliu.github.io/publications/nerd/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/nerd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Equivariant Point Network for 3D Point Cloud Analysis</title>
+      <link>https://shichenliu.github.io/publications/epn/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/epn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning to Infer Implicit Surfaces without 3D Supervision</title>
+      <link>https://shichenliu.github.io/publications/implicit-surfaces/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/implicit-surfaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning</title>
+      <link>https://shichenliu.github.io/publications/soft-rasterizer/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/soft-rasterizer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generalized Zero-Shot Learning with Deep Calibration Network</title>
+      <link>https://shichenliu.github.io/publications/dcn/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/dcn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CondenseNet: An Efficient DenseNet using Learned Group Convolutions</title>
+      <link>https://shichenliu.github.io/publications/condensenet/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/condensenet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Visual-Semantic Quantization for Efficient Image Retrieval</title>
+      <link>https://shichenliu.github.io/publications/dvsq/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/dvsq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Collective Deep Quantization for Efficient Cross-Modal Retrieval</title>
+      <link>https://shichenliu.github.io/publications/cdq/</link>
+      <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/cdq/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

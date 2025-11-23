@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Shichen Liu</title>
+    <link>https://shichenliu.github.io/publications/</link>
+    <description>Recent content in Publications on Shichen Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shichenliu.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MonoAvatar&#43;&#43;: Efficient 3D Implicit Head Avatar with Mesh-anchored Hash Table Blendshapes</title>
+      <link>https://shichenliu.github.io/publications/monoavatar-plus-plus/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/monoavatar-plus-plus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generalizing Neural Human Fitting to Unseen Poses With Articulated SE(3) Equivariance</title>
+      <link>https://shichenliu.github.io/publications/arteq/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/arteq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rapid Face Asset Acquisition with Recurrent Feature Alignment</title>
+      <link>https://shichenliu.github.io/publications/refa/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/refa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exemplar-based Pattern Synthesis with Implicit Periodic Field Network</title>
+      <link>https://shichenliu.github.io/publications/ipfn/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/ipfn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Topologically Consistent Multi-View Face Inference Using Volumetric Sampling</title>
+      <link>https://shichenliu.github.io/publications/tofu/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/tofu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VaPiD: A Rapid Vanishing Point Detector via Learned Optimizers</title>
+      <link>https://shichenliu.github.io/publications/vapid/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/vapid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NeRD: Neural 3D Reflection Symmetry Detector</title>
+      <link>https://shichenliu.github.io/publications/nerd/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/nerd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Equivariant Point Network for 3D Point Cloud Analysis</title>
+      <link>https://shichenliu.github.io/publications/epn/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/epn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning to Infer Implicit Surfaces without 3D Supervision</title>
+      <link>https://shichenliu.github.io/publications/implicit-surfaces/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/implicit-surfaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning</title>
+      <link>https://shichenliu.github.io/publications/soft-rasterizer/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/soft-rasterizer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generalized Zero-Shot Learning with Deep Calibration Network</title>
+      <link>https://shichenliu.github.io/publications/dcn/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/dcn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CondenseNet: An Efficient DenseNet using Learned Group Convolutions</title>
+      <link>https://shichenliu.github.io/publications/condensenet/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/condensenet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Visual-Semantic Quantization for Efficient Image Retrieval</title>
+      <link>https://shichenliu.github.io/publications/dvsq/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/dvsq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Collective Deep Quantization for Efficient Cross-Modal Retrieval</title>
+      <link>https://shichenliu.github.io/publications/cdq/</link>
+      <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/publications/cdq/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

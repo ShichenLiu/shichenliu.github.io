@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Shichen Liu</title>
+    <link>https://shichenliu.github.io/blog/</link>
+    <description>Recent content in Blog on Shichen Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shichenliu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>https://shichenliu.github.io/blog/sample-post/</link>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://shichenliu.github.io/blog/sample-post/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog&lt;/h1&gt;&#xA;&lt;p&gt;This is a sample blog post to demonstrate the functionality of your new Hugo website. You can use this as a template for future posts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;&#xA;&lt;p&gt;To create a new blog post, use the Hugo command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new content blog/your-post-title.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;writing-content&#34;&gt;Writing Content&lt;/h2&gt;&#xA;&lt;p&gt;You can write your content in Markdown, which supports:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Code snippets&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://example.com&#34;&gt;Links&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;And much more!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of a code block:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
