@@ -1,0 +1,54 @@
+baseURL = 'https://shichenliu.github.io/'
+languageCode = 'en-us'
+title = 'Shichen Liu'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+name = "Shichen Liu"
+title = "Ph.D. of Computer Science"
+description = "Personal website of Shichen Liu - Researcher at Google AR"
+
+# Conference venue mappings
+[params.venues]
+CVPR = "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+ICCV = "IEEE International Conference on Computer Vision (ICCV)"
+NeurIPS = "Neural Information Processing Systems (NeurIPS)"
+ICML = "International Conference on Machine Learning (ICML)"
+ICLR = "International Conference on Learning Representations (ICLR)"
+ECCV = "European Conference on Computer Vision (ECCV)"
+SIGGRAPH = "ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques (SIGGRAPH)"
+SIGGRAPH_Asia = "ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia)"
+AAAI = "AAAI Conference on Artificial Intelligence (AAAI)"
+
+# Presentation type mappings
+[params.presentations]
+spotlight = "Spotlight Presentation"
+oral = "Oral Presentation"
+poster = "Poster Presentation"
+
+
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "#"
+weight = 1
+
+[[menu.main]]
+name = "Publications"
+url = "#publications-section"
+weight = 2
+
+[[menu.main]]
+name = "Photography"
+url = "#photography-section"
+weight = 3
+
+[[menu.main]]
+  name = "Miscs"
+  url = "#life-section"
+  weight = 4

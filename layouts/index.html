@@ -1,0 +1,163 @@
+{{ define "main" }}
+<div class="home">
+    <section class="banner">
+        <div class="banner-portrait">
+            <img src="/images/portrait.jpg" alt="Portrait" class="portrait-image">
+        </div>
+        <div class="banner-location">
+            Santa Clara, California
+        </div>
+    </section>
+    
+    {{ $aboutPage := .Site.GetPage "about" }}
+    {{ if $aboutPage }}
+    <section class="about">
+        <h2>{{ .Site.Params.name }}</h2>
+        <div class="about-content">
+            {{ $aboutPage.Content }}
+        </div>
+    </section>
+    {{ end }}
+    
+    <section class="publications" id="publications-section">
+        <div class="publications-header">
+            <h2>Publications</h2>
+            <button id="show-all-publications" class="btn-toggle">Show Full List</button>
+        </div>
+        <div class="publications-list" id="publications-list">
+            {{ $featured := where (where .Site.RegularPages "Section" "publications") ".Params.featured" true }}
+            {{ range $featured }}
+            <div class="publication-item featured-publication" data-year="{{ .Params.year }}" data-date="{{ .Date.Format "2006-01-02" }}">
+                <h3 class="publication-title">{{ .Title }}</h3>
+                <p class="publication-authors">{{ .Params.authors | replaceRE "Shichen Liu" "<u>Shichen Liu</u>" | safeHTML }}</p>
+                <p class="publication-venue">
+                    {{ $venue := .Params.venue }}
+                    {{ if .Site.Params.venues }}
+                        {{ $fullVenue := index .Site.Params.venues $venue }}
+                        {{ if $fullVenue }}
+                            {{ $fullVenue }}, {{ .Params.year }}
+                        {{ else }}
+                            {{ $venue }}, {{ .Params.year }}
+                        {{ end }}
+                    {{ else }}
+                        {{ $venue }}, {{ .Params.year }}
+                    {{ end }}
+                    {{ if .Params.presentation }}
+                        {{ $presentation := .Params.presentation }}
+                        {{ if .Site.Params.presentations }}
+                            {{ $fullPresentation := index .Site.Params.presentations $presentation }}
+                            {{ if $fullPresentation }}<span class="presentation-badge">{{ $fullPresentation }}</span>{{ end }}
+                        {{ end }}
+                    {{ end }}
+                </p>
+                {{ if .Params.links }}
+                <div class="publication-links">
+                    {{ range .Params.links }}
+                    <a href="{{ .url }}" class="publication-link">{{ .name }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+        <div class="publications-list all-publications" id="all-publications" style="display: none;">
+            {{ $all := where .Site.RegularPages "Section" "publications" }}
+            {{ range $all }}
+            <div class="publication-item hidden-publication" data-year="{{ .Params.year }}" data-date="{{ .Date.Format "2006-01-02" }}" data-featured="{{ .Params.featured }}">
+                <h3 class="publication-title">{{ .Title }}</h3>
+                <p class="publication-authors">{{ .Params.authors | replaceRE "Shichen Liu" "<u>Shichen Liu</u>" | safeHTML }}</p>
+                <p class="publication-venue">
+                    {{ $venue := .Params.venue }}
+                    {{ if .Site.Params.venues }}
+                        {{ $fullVenue := index .Site.Params.venues $venue }}
+                        {{ if $fullVenue }}{{ $fullVenue }}{{ else }}{{ $venue }}{{ end }}
+                    {{ else }}
+                        {{ $venue }}
+                    {{ end }},{{ .Params.year }}
+                    {{ if .Params.presentation }}
+                        {{ $presentation := .Params.presentation }}
+                        {{ if .Site.Params.presentations }}
+                            {{ $fullPresentation := index .Site.Params.presentations $presentation }}
+                            {{ if $fullPresentation }}<span class="presentation-badge">{{ $fullPresentation }}</span>{{ end }}
+                        {{ end }}
+                    {{ end }}
+                </p>
+                {{ if .Params.links }}
+                <div class="publication-links">
+                    {{ range .Params.links }}
+                    <a href="{{ .url }}" class="publication-link">{{ .name }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </section>
+    
+    <section class="photography-preview" id="photography-section">
+        <div class="photography-header">
+            <h2>Photography</h2>
+            <button id="show-photo-gallery" class="btn-toggle">View Full Gallery</button>
+        </div>
+        <div class="photo-grid" id="photo-preview-grid">
+            {{ $gallery := where .Site.RegularPages "Section" "photography" }}
+            {{ range $gallery }}
+            {{ $domain := .Params.domain }}
+            {{ range first 4 .Params.images }}
+            {{ $thumbnail := printf "%s/%s" $domain .thumbnail }}
+            {{ $fullsize := printf "%s/%s" $domain .fullsize }}
+            <div class="photo-item" data-title="{{ .title }}" data-fullsize="{{ $fullsize }}" data-thumbnail="{{ $thumbnail }}">
+                <img src="{{ $thumbnail }}" alt="{{ .title }}" loading="lazy">
+                <div class="photo-caption">{{ .title }}</div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+        <!-- Photo Gallery Modal -->
+        <div class="photo-modal" id="photo-modal">
+            <div class="photo-modal-content">
+                <span class="photo-close" id="photo-close">&times;</span>
+                <div class="photo-slideshow">
+                    <div class="photo-slide active" id="current-slide">
+                        <img id="main-image" src="" alt="">
+                        <div class="photo-slide-caption" id="slide-caption"></div>
+                    </div>
+                    <a class="photo-prev" id="photo-prev">&#10094;</a>
+                    <a class="photo-next" id="photo-next">&#10095;</a>
+                </div>
+                <div class="photo-thumbnails" id="photo-thumbnails">
+                    <!-- Thumbnails will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Gallery data container -->
+        <div id="gallery-data" style="display: none;">
+            {{ $gallery := where .Site.RegularPages "Section" "photography" }}
+            {{ range $gallery }}
+            {{ $domain := .Params.domain }}
+            {{ range .Params.images }}
+            {{ $thumbnail := printf "%s/%s" $domain .thumbnail }}
+            {{ $fullsize := printf "%s/%s" $domain .fullsize }}
+            <div data-thumbnail="{{ $thumbnail }}" data-fullsize="{{ $fullsize }}" data-title="{{ .title }}" data-alt="{{ .title }}"></div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </section>
+    
+    <section class="life-preview" id="life-section">
+        <h2>Miscs</h2>
+        <div class="life-entries">
+            {{ $life := where .Site.RegularPages "Section" "life" }}
+            {{ range $life }}
+            <div class="life-entry">
+                <h3>{{ .Title }}</h3>
+                <div class="life-content">
+                    {{ .Content }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}

@@ -1,0 +1,8 @@
+<footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.name | default .Site.Title }}. All rights reserved.</p>
+        {{ if .Site.Params.email }}
+        <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+        {{ end }}
+    </div>
+</footer>
